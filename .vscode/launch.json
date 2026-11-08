@@ -1,0 +1,34 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Current File",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "python": "C:/Users/haivo/AppData/Local/Python/pythoncore-3.14-64/python.exe"
+    },
+    {
+      "name": "Debug profile.py (sample)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/.claude/skills/csv-profile/scripts/profile.py",
+      "args": [".claude/skills/csv-profile/samples/sales.csv"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "python": "C:/Users/haivo/AppData/Local/Python/pythoncore-3.14-64/python.exe"
+    },
+    {
+      "name": "Debug profile.py (missing file)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/.claude/skills/csv-profile/scripts/profile.py",
+      "args": ["nope.csv"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "python": "C:/Users/haivo/AppData/Local/Python/pythoncore-3.14-64/python.exe"
+    }
+  ]
+}

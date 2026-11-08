@@ -1,0 +1,9 @@
+# Separate projects with their own repositories or not part of the skills work
+CraigsClone/
+StockBot/
+SimpleAgent/
+New folder/
+
+# Python
+__pycache__/
+*.pyc
