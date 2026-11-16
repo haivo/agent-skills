@@ -8,7 +8,7 @@ controls when it triggers and which tools it may use, followed by instructions t
 
 | Skill | What it does | Where the output is produced |
 |-------|--------------|------------------------------|
-| `csv-summary` | Row/column counts and a min/max/mean table for a CSV | Python script prints the finished table |
+| `csv-summary` | Row/column counts and a min/max/mean table for a CSV | Python script prints raw JSON, agent writes the table |
 | `csv-profile` | Same stats as JSON and as a table | Python script prints both |
 | `explain-code` | Explains a code selection in a fixed four-part layout | Agent writes prose, guided by `references/layout.md` |
 | `product-search` | Searches a PostgreSQL product catalog by keyword | Python script queries the DB, agent formats a table |
@@ -22,7 +22,8 @@ controls when it triggers and which tools it may use, followed by instructions t
 ## Design note: who produces the output
 
 Early versions of the CSV skills had the script emit raw JSON and the agent write the table from a
-one-line instruction. The current versions move formatting into the script. Both are valid skills;
+one-line instruction. `csv-profile` moves formatting into the script; `csv-summary` keeps the agent-formatted
+design so the two can be compared side by side. Both are valid skills;
 the trade-off is:
 
 - **Agent-formatted:** flexible, layout can be changed by editing markdown, but may vary between runs.
