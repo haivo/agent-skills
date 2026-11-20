@@ -18,7 +18,7 @@
       "type": "stdio",
       "command": "C:\\Users\\haivo\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
       "args": [
-        "C:\\Data\\sources\\SimpleAgent\\mcp_agent_server.py"
+        "C:\\Data\\sources\\agents\\csv-reviewer\\mcp_server.py"
       ]
     }
   }
