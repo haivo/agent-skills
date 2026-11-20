@@ -1,3 +1,4 @@
 anthropic
+mcp
 python-dotenv
 pytest

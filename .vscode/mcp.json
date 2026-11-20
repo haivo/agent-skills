@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "csv-reviewer": {
+      "type": "stdio",
+      "command": "py",
+      "args": [
+        "-3.14",
+        "${workspaceFolder}/agents/csv-reviewer/mcp_server.py"
+      ]
+    }
+  }
+}
