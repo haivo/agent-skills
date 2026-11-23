@@ -58,5 +58,5 @@ stages:
                   inputs:
                     azureSubscription: azure-onlinestore
                     appType: webApp
-                    appName: onlinestore
+                    appName: rg-onlinestore
                     package: $(Pipeline.Workspace)/drop/**/*.zip
