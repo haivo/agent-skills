@@ -1,0 +1,11 @@
+@Store.Api_HostAddress = http://localhost:5140
+
+### OpenAPI document (works now)
+GET {{Store.Api_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+### Day 1: list products (add ProductsController first)
+GET {{Store.Api_HostAddress}}/api/products
+Accept: application/json
+
+###
