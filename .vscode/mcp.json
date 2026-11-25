@@ -20,6 +20,14 @@
       "args": [
         "C:\\Data\\sources\\agents\\csv-reviewer\\mcp_server.py"
       ]
+    },
+    "pr-review": {
+      "type": "stdio",
+      "command": "C:\\Users\\haivo\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+      "args": [
+        "C:\\Data\\sources\\agents\\pr-reviewer\\mcp_server.py"
+      ],
+      "env": { "REPO_DIR": "C:\\Data\\OnlineStore" }
     }
   }
 }
