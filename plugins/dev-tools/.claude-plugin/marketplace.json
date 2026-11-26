@@ -1,0 +1,11 @@
+{
+  "name": "haivo-skills",
+  "owner": { "name": "Hai Vo" },
+  "plugins": [
+    {
+      "name": "dev-tools",
+      "source": "./plugins/dev-tools",
+      "description": "PR review and CSV skills"
+    }
+  ]
+}
