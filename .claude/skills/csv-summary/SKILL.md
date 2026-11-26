@@ -1,6 +1,6 @@
 ---
 name: csv-summary
-description: Summarize a local CSV file: row count, column names, and min/max/mean of numeric columns. Use when the user asks to inspect, profile, or get quick stats on a .csv file.
+description: "Summarize a local CSV file: row count, column names, and min/max/mean of numeric columns. Use when the user asks to inspect, profile, or get quick stats on a .csv file."
 allowed-tools: Bash(py -3.14 .claude/skills/csv-summary/scripts/summarize.py:*), Read
 ---
 

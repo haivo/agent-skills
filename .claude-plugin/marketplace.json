@@ -1,5 +1,6 @@
 {
   "name": "haivo-skills",
+  "description": "PR review and CSV skills for Claude Code",
   "owner": { "name": "Hai Vo" },
   "plugins": [
     {
