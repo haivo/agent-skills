@@ -1,9 +1,8 @@
 ﻿<Solution>
   <Folder Name="/src/">
-    <Project Path="src/Api/Api.csproj" />
-    <Project Path="src/Application/Application.csproj" />
-    <Project Path="src/Core/Core.csproj" />
-    <Project Path="src/Infrastructure/Infrastructure.csproj" />
-    <Project Path="src/Test/Test.csproj" />
+    <Project Path="src/Store.Api/Store.Api.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Store.Api.Tests/Store.Api.Tests.csproj" />
   </Folder>
 </Solution>

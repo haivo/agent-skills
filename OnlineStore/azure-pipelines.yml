@@ -28,7 +28,7 @@ stages:
             displayName: Test
             inputs:
               command: test
-              projects: src/Test/Test.csproj
+              projects: tests/Store.Api.Tests/Store.Api.Tests.csproj
               arguments: --configuration $(buildConfiguration) --no-build
 
           - task: DotNetCoreCLI@2
@@ -36,7 +36,7 @@ stages:
             inputs:
               command: publish
               publishWebProjects: false
-              projects: src/Api/Api.csproj
+              projects: src/Store.Api/Store.Api.csproj
               arguments: --configuration $(buildConfiguration) --no-build --output $(Build.ArtifactStagingDirectory)
               zipAfterPublish: true
 
