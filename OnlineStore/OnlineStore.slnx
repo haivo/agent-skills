@@ -1,5 +1,9 @@
-﻿<Solution>
+<Solution>
   <Folder Name="/src/">
+    <Project Path="src/Inventory.Database/Inventory.Database.sqlproj" Id="1c721bdc-873a-422a-9f25-84bc01790207">
+      <Build />
+      <Deploy />
+    </Project>
     <Project Path="src/Store.Api/Store.Api.csproj" />
   </Folder>
   <Folder Name="/tests/">

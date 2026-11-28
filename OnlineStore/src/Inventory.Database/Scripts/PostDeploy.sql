@@ -1,0 +1,3 @@
+-- Runs after every publish. Anything added here must be safe to run many times
+-- (for example: IF NOT EXISTS (...) INSERT ...).
+-- Empty for now: the Inventory database already has its own data.
